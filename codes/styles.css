@@ -67,7 +67,7 @@ a {
 
 #hire__button {
     display: block;
-    background-color: salmon;
+    background-image: linear-gradient(135deg, orange, red);
     width: 6rem;
     margin-top: 3rem;
     border-radius: 5px;
@@ -86,7 +86,7 @@ a {
 }
 
 .download__cv__btn {
-    background-color: salmon;
+    background-image: linear-gradient(135deg, orange, red);
     width: 5 rem;
     margin-top: 18rem;
     margin-left: -25rem;
@@ -169,40 +169,203 @@ a {
 }
 
 .working__projects__heading span {
-    color: crimson;
+    color: rgb(219, 70, 100);
 }
 
 .each__card {
-    width: 25%;
-    height: 60%;
+    width: 28%;
+    height: 70%;
     margin: 4rem 2rem;
     display: inline-block;
     margin-top: 10%;
+    border-radius: 10px;
 }
 
 .each__card img {
-    width: 100%;
-    margin-bottom: 10%;
+    width: 90%;
+    margin-bottom: 2%;
     padding: 4%;
 }
 
 .each__card h3 {
     font-size: 25px;
     font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    margin-left: 2rem;
 }
 
 .each__card p {
-    font-size: 16px;
-}
-
-.left p {
     text-align: left;
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
-.middle p {
+.left {
+    box-shadow: -15px 15px 30px lightgray;
+}
+
+.middle {
+    box-shadow: 0px 15px 30px lightgray;
+}
+
+.right {
+    box-shadow: 15px 15px 30px lightgray;
+}
+
+.work__inquery {
+    height: 20rem;
+}
+
+.work__inquery img {
+    width: 60%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    position: relative;
+    left: -2.75%;
+}
+
+.work__inquery h2 {
+    font-size: 45px;
+    float: left;
+    font-family: 'Staatliches', cursive;
+    color: whitesmoke;
+    position: relative;
+    top: 21rem;
+    left: 30rem;
+}
+
+#chat__btn {
+    background-image: linear-gradient(135deg, orange, red);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-size: 17px;
+    position: relative;
+    left: -15%;
+    top: -120%;
+}
+
+.work__inquery h3 {
+    position: relative;
+    top: -60%;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    color: gray;
+}
+
+.work__inquery strong {
+    float: center;
+    position: relative;
+    top: -55%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    text-transform: lowercase;
+    display: inline-block;
+}
+
+.links {
+    float: left;
+    height: 2rem;
+    display: inline;
+    margin: 2% 0;
+    position: relative;
+    top: -10rem;
+    left: 34.5%;
+}
+
+.links img {
+    padding: 0;
+    width: 25%;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 187, 128);
+    margin: 6rem auto 2rem auto;
+    position: relative;
+    top: 47rem;
+}
+
+.half h3 {
+    color: sandybrown;
+}
+
+.half {
+    width: 35%;
+    height: 28%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.left__1 {
+    box-shadow: -10px -10px 40px #bbbfca;
+    border-right: 4px solid;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-top-left-radius: 50px;
+}
+
+.left__2 {
+    box-shadow: -10px 10px 40px #bbbfca;
+    border-right: 4px solid;
+    border-top: 4px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-bottom-left-radius: 50px;
+}
+
+.right__1 {
+    box-shadow: 10px -10px 40px #bbbfca;
+    margin-left: 6.5rem;
+    text-align: right;
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-top-right-radius: 50px;
+}
+
+.right__2 {
+    text-align: right;
+    box-shadow: 10px 10px 40px #bbbfca;
+    margin-left: 6.5rem;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-bottom-right-radius: 50px;
+}
+
+.experience__section {
+    height: 50rem;
+    margin-top: 5rem;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience__section h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 4rem auto 3rem auto;
+    font-size: 35px;
+    color: crimson;
+}
+
+.half {
+    width: 39.5%;
+    margin: 2% 4%;
+    float: left;
+}
+
+.middle__image {
     text-align: center;
 }
 
-.right p {
-    text-align: right;
+.middle__image img {
+    width: 5%;
+    margin: 1% 0;
 }
