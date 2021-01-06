@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #364f6b;
+    font-weight: 700;
+}
+
+.navbar {
+    text-align: right;
+    margin-right: 8rem;
+}
+
+.navbar p {
+    display: inline-block;
+    margin: 2em 2em;
+}
+
+.left__half {
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    color: #004a7c;
+    margin: 2% 2.5% 4% 5%;
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 6%;
+}
+
+.left__half h2 {
+    margin: 0;
+}
+
+.name {
+    font-size: 75px;
+    color: #ff6f3c;
+    letter-spacing: 5px;
+    word-spacing: 1rem;
+}
+
+#intro__description {
+    margin-top: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #2b2e4a;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.right__half {
+    width: 40%;
+    float: right;
+    padding-right: 10%;
+}
+
+
+.right__half img {
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#hire__button {
+    display: block;
+    background-color: salmon;
+    width: 6rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 10px;
+    color: whitesmoke;
+}
+
+.download__svg {
+    width: 1.5%;
+    margin-right: 1.5%;
+}
+
+.download__cv__btn {
+    background-color: salmon;
+    width: 6rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px 10px;
+    color: whitesmoke;
+}
+
+.left__part {
+    width: 45%;
+    display: inline-block;
+}
+
+.left__part img {
+    width: 80%;
+}
+
+.right__part {
+    display: inline-block;
+    width: 400px;
+}
+
+.right__part h3 {
+    display: inline-block;
+}
+
+.right__part p {
+    display: inline-block;
+    width: 40%;
+}
