@@ -9,6 +9,7 @@ body {
 .navbar {
     text-align: right;
     margin-right: 8rem;
+    height: 5rem;
 }
 
 .navbar p {
@@ -76,23 +77,41 @@ a {
 }
 
 .download__svg {
-    width: 1.5%;
+    width: 1.15rem;
     margin-right: 1.5%;
+    display: inline;
+    float: left;
+    position: relative;
+    top: 0.25rem;
 }
 
 .download__cv__btn {
     background-color: salmon;
-    width: 6rem;
-    margin-top: 3rem;
+    width: 5 rem;
+    margin-top: 18rem;
+    margin-left: -25rem;
     border-radius: 5px;
     text-align: center;
-    padding: 7px 10px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
     color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+}
+
+.btn__text {
+    display: inline;
+    float: right;
+    color: whitesmoke;
+    margin-left: 1em;
+    position: relative;
+    top: -1rem;
 }
 
 .left__part {
-    width: 45%;
-    display: inline-block;
+    width: 40%;
+    float: left;
 }
 
 .left__part img {
@@ -100,15 +119,31 @@ a {
 }
 
 .right__part {
-    display: inline-block;
-    width: 400px;
-}
-
-.right__part h3 {
-    display: inline-block;
-}
-
-.right__part p {
-    display: inline-block;
     width: 40%;
+    float: right;
+}
+
+
+.inline__block {
+    display: inline-block;
+    max-width: 25rem;
+    float: left;
+}
+
+.about__section {
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.inline__block1 {
+    font-size: 40px;
+    margin-left: 10rem;
+    font-family: 'Staatliches', cursive;
+}
+
+.inline__block2 {
+    position: relative;
+    margin-top: 6rem;
+    margin-left: -5.5rem;
+    font-size: 16px;
 }
